@@ -1,0 +1,26 @@
+.posts {
+  display: flex;
+}
+
+.post {
+  padding: 20px;
+  margin: 10px;
+  color: gray;
+  background-color: lightgray;
+  transition: background-color 0.5s;
+  cursor: pointer;
+  float: left;
+  width: 17%;
+  font-weight: bold;
+  flex-direction: column;
+}
+
+.post:hover {
+  background-color: white;
+}
+
+@media (max-width: 768px) {
+  .post {
+    width: 100%;
+  }
+}
